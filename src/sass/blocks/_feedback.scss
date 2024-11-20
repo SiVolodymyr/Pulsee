@@ -1,0 +1,64 @@
+.feedback {
+    min-height: 1000px;
+    padding-bottom: 80px;
+
+    &__title {
+        font-weight: 700;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        &_img {
+            display: block;
+            height: 169px;
+            width: 169px;
+            object-fit: contain;
+            border-radius: 100%;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &_text {
+            width: 680px;
+            margin-left: 60px;
+        }
+
+        &_name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 100%;
+            color: #0d0d0d;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        &_distance {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        &_comment {
+            margin-top: 10px;
+            font-weight: 300;
+            line-height: 160%;
+            font-size: 16px;
+            color: #0d0d0d;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
