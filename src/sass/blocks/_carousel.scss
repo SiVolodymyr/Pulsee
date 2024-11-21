@@ -7,12 +7,16 @@
         margin: 0 auto;
     }
 
+    &__wrapper {
+        position: relative;
+    }
+
     .prev,
     .next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: -66px;
+        left: -30px;
         border: none;
         background-color: #fff;
 
@@ -23,7 +27,7 @@
     }
 
     .next {
-        right: -66px;
+        right: -30px;
         left: auto;
     }
 
@@ -45,4 +49,18 @@
     // }
 
 
+}
+
+@media (max-width: 991px) {
+    .carousel {
+        padding: 60px 0;
+
+        &__inner {
+            width: 500px;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
 }

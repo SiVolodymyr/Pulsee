@@ -70,3 +70,46 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 0 40px 0;
+        min-height: 500px;
+
+        &__wrapper {
+            margin-top: 50px;
+        }
+
+        &__icons {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+            font-size: 30px;
+        }
+
+        &__subheader {
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        &__icons {
+            width: 280px;
+            margin-top: 80px;
+        }
+
+        &__icon {
+            font-size: 11px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

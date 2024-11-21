@@ -24,3 +24,14 @@
         margin-top: 25px;
     }
 }
+
+@media (max-width: 991px) {
+    .feed-form {
+        width: 250px;
+        margin-top: 0;
+
+        input {
+            height: 40px;
+        }
+    }
+}

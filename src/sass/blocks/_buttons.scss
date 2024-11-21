@@ -36,3 +36,17 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 767px) {
+    .button {
+        width: 130px;
+        height: 27px;
+        font-size: 10px;
+
+        &_main {
+            width: 200px;
+            height: 30px;
+            font-size: 13px;
+        }
+    }
+}

@@ -64,3 +64,19 @@
 #thanks {
     display: none;
 }
+
+@media (max-width: 991px) {
+    .modal {
+        width: 300px;
+        padding: 25px;
+        min-height: 330px;
+
+        &__subtitle {
+            font-size: 15px;
+        }
+
+        &__descr {
+            font-size: 12px;
+        }
+    }
+}

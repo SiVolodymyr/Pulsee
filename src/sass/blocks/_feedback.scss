@@ -62,3 +62,30 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .feedback {
+        min-height: 850px;
+
+        &__wrapper {
+            margin-top: 35px;
+            row-gap: 30px;
+        }
+
+        &__item {
+            &_img {
+                height: 140px;
+                width: 140px;
+            }
+
+            &_text {
+                margin-left: 40px;
+            }
+
+            &_comment {
+                font-size: 14px;
+                line-height: 140%;
+            }
+        }
+    }
+}
