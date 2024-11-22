@@ -17,5 +17,31 @@
 @media (max-width: 991px) {
     .title {
         font-size: 27px;
+
+        &_left {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 21px;
+
+        &_left {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 16px;
+    }
+}
+
+.consultation {
+    .title {
+        font-size: 12px;
     }
 }

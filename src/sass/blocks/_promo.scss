@@ -111,5 +111,47 @@
                 margin-bottom: 10px;
             }
         }
+
+        &__link {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        padding: 10px 0 20px 0;
+        min-height: 430px;
+
+        &__wrapper {
+            margin-top: 30px;
+        }
+
+        &__header {
+            font-size: 23px;
+            line-height: 30px;
+        }
+
+        &__subheader {
+            font-size: 12px;
+        }
+
+        &__icons {
+            margin-top: 50px;
+            width: 270px;
+        }
+
+        &__icon {
+            font-size: 10px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &__link {
+            font-size: 10px;
+        }
     }
 }

@@ -35,3 +35,25 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .feed-form {
+        width: 220px;
+
+        input {
+            height: 33px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .feed-form {
+        width: 170px;
+
+        input {
+            height: 28px;
+            font-size: 10px;
+        }
+    }
+}
